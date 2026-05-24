@@ -138,30 +138,22 @@ Before/after comparison bar chart
 
 Improvement percentage calculation
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Component	Technology
 Deep Learning	PyTorch 2.0+
 Physics Simulation	NumPy (finite difference)
 Visualization	Matplotlib
 Testing	PyTest
 Configuration	YAML
-📊 Performance Benchmarks
+
+## 📊 Performance Benchmarks
 Metric	Value
 Training time	~2 minutes (500 steps on CPU)
 Inference speed	~50 FPS (real-time)
 Memory usage	<500MB RAM
 Model size	~2MB (weights only)
 Grid resolution	64x64 pixels
-🧪 Running Tests
-bash
-# Run all tests
-pytest tests/
 
-# Run with coverage report
-pytest tests/ --cov=src --cov-report=html
-
-# Run specific test
-pytest tests/test_simulator.py
 🤝 Connect with Me
 GitHub: ThuvarakaYogeswaran
 
@@ -179,7 +171,7 @@ PyTorch team for the excellent framework
 
 Open-source PDE solver references
 
-⭐ Show Your Support
+## ⭐ Show Your Support
 If you found this project useful:
 
 ⭐ Star the repository on GitHub
@@ -188,7 +180,7 @@ If you found this project useful:
 
 🐛 Report issues or suggest improvements
 
-📞 Contact
+## 📞 Contact
 For questions or collaborations:
 
 Open an issue on GitHub
