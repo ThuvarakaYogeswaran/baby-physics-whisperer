@@ -43,7 +43,7 @@ The AI starts **completely blank** (random weights). It watches smoke diffuse in
 
 ### Learning Curve
 
-![Learning Curve](curve_final.png)
+![Learning Curve](curve.png)
 
 *Error drops from 0.100 to 0.016 — 84% improvement!*
 
@@ -75,7 +75,11 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 Run Training
+bash
+python src/train_online.py
 Launch Interactive Demo
+bash
+python src/interactive_demo.py
 🎮 How to Use the Demo
 Once the demo window opens:
 
@@ -125,64 +129,58 @@ for step in range(500):
     # AI learns from mistake
     loss.backward()
     optimizer.step()
-📈 Results Visualization
-Run this to generate professional learning curves:
 
+🛠️ Tech Stack
+Component	Technology
+Deep Learning	PyTorch 2.0+
+Physics Simulation	NumPy (finite difference)
+Visualization	Matplotlib
+Testing	PyTest
+Configuration	YAML
+
+📊 Performance Benchmarks
+Metric	Value
+Training time	~2 minutes (500 steps on CPU)
+Inference speed	~50 FPS (real-time)
+Memory usage	<500MB RAM
+Model size	~2MB (weights only)
+Grid resolution	64x64 pixels
+🧪 Running Tests
 bash
-python plot_curves.py
-This creates:
+# Run all tests
+pytest tests/
 
-Learning curve showing error reduction over time
+# Run with coverage report
+pytest tests/ --cov=src --cov-report=html
+🤝 Connect with Me
+GitHub: ThuvarakaYogeswaran
 
-Before/after comparison bar chart
+LinkedIn: Thuvaraka Yogeswaran
 
-Improvement percentage calculation
+📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🛠️ Tech Stack
+🙏 Acknowledgments
+Inspired by MIT's "Tadpole" project (2025)
 
-| Component | Technology |
-|-----------|------------|
-| Deep Learning | PyTorch 2.0+ |
-| Physics Simulation | NumPy (finite difference) |
-| Visualization | Matplotlib |
-| Testing | PyTest |
-| Configuration | YAML |
+Google's "DreamerV3" for world model concepts
 
-## 📊 Performance Benchmarks
+PyTorch team for the excellent framework
 
-| Metric | Value |
-|--------|-------|
-| Training time | ~2 minutes (500 steps on CPU) |
-| Inference speed | ~50 FPS (real-time) |
-| Memory usage | <500MB RAM |
-| Model size | ~2MB (weights only) |
-| Grid resolution | 64x64 pixels |
+Open-source PDE solver references
 
-## 🤝 Connect with Me
-
-- **GitHub**: [ThuvarakaYogeswaran](https://github.com/ThuvarakaYogeswaran)
-- **LinkedIn**: [Thuvaraka Yogeswaran](https://www.linkedin.com/in/thuvaraka-yogeswaran-287330353/)
-
-## 🙏 Acknowledgments
-
-- Inspired by MIT's **"Tadpole"** project (2025)
-- Google's **"DreamerV3"** for world model concepts
-- **PyTorch** team for the excellent framework
-- Open-source PDE solver references
-
-## ⭐ Show Your Support
-
+⭐ Show Your Support
 If you found this project useful:
 
-- ⭐ **Star** the repository on GitHub
-- 🔗 **Share** it on LinkedIn/Twitter
-- 🐛 **Report** issues or suggest improvements
+⭐ Star the repository on GitHub
 
-## 📞 Contact
+🔗 Share it on LinkedIn/Twitter
 
+🐛 Report issues or suggest improvements
+
+📞 Contact
 For questions or collaborations:
 
-- Open an **issue** on GitHub
-- Connect with me on **LinkedIn**
+Open an issue on GitHub
 
-Built with 🧠 and ☕ by Thuvaraka Yogeswaran
+Connect with me on LinkedIn
