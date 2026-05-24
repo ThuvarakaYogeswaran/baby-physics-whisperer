@@ -139,52 +139,50 @@ Before/after comparison bar chart
 Improvement percentage calculation
 
 ## 🛠️ Tech Stack
-Component	Technology
-Deep Learning	PyTorch 2.0+
-Physics Simulation	NumPy (finite difference)
-Visualization	Matplotlib
-Testing	PyTest
-Configuration	YAML
+
+| Component | Technology |
+|-----------|------------|
+| Deep Learning | PyTorch 2.0+ |
+| Physics Simulation | NumPy (finite difference) |
+| Visualization | Matplotlib |
+| Testing | PyTest |
+| Configuration | YAML |
 
 ## 📊 Performance Benchmarks
-Metric	Value
-Training time	~2 minutes (500 steps on CPU)
-Inference speed	~50 FPS (real-time)
-Memory usage	<500MB RAM
-Model size	~2MB (weights only)
-Grid resolution	64x64 pixels
 
-🤝 Connect with Me
-GitHub: ThuvarakaYogeswaran
+| Metric | Value |
+|--------|-------|
+| Training time | ~2 minutes (500 steps on CPU) |
+| Inference speed | ~50 FPS (real-time) |
+| Memory usage | <500MB RAM |
+| Model size | ~2MB (weights only) |
+| Grid resolution | 64x64 pixels |
 
-LinkedIn: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
+## 🤝 Connect with Me
 
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- **GitHub**: [ThuvarakaYogeswaran](https://github.com/ThuvarakaYogeswaran)
+- **LinkedIn**: [Thuvaraka Yogeswaran](https://www.linkedin.com/in/thuvaraka-yogeswaran-287330353/)
 
-🙏 Acknowledgments
-Inspired by MIT's "Tadpole" project (2025)
+## 🙏 Acknowledgments
 
-Google's "DreamerV3" for world model concepts
-
-PyTorch team for the excellent framework
-
-Open-source PDE solver references
+- Inspired by MIT's **"Tadpole"** project (2025)
+- Google's **"DreamerV3"** for world model concepts
+- **PyTorch** team for the excellent framework
+- Open-source PDE solver references
 
 ## ⭐ Show Your Support
+
 If you found this project useful:
 
-⭐ Star the repository on GitHub
-
-🔗 Share it on LinkedIn/Twitter
-
-🐛 Report issues or suggest improvements
+- ⭐ **Star** the repository on GitHub
+- 🔗 **Share** it on LinkedIn/Twitter
+- 🐛 **Report** issues or suggest improvements
 
 ## 📞 Contact
+
 For questions or collaborations:
 
-Open an issue on GitHub
-
-Connect with me on LinkedIn
+- Open an **issue** on GitHub
+- Connect with me on **LinkedIn**
 
 Built with 🧠 and ☕ by Thuvaraka Yogeswaran
