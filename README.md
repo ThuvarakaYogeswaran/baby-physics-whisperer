@@ -47,40 +47,8 @@ The AI starts **completely blank** (random weights). It watches smoke diffuse in
 
 *Error drops from 0.100 to 0.016 — 84% improvement!*
 
----
 
-## 🚀 Quick Start
-
-### Prerequisites
-
-- Python 3.8 or higher
-- pip (Python package manager)
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/ThuvarakaYogeswaran/baby-physics-whisperer.git
-cd baby-physics-whisperer
-
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# On Windows:
-venv\Scripts\activate
-# On Mac/Linux:
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-Run Training
-bash
-python src/train_online.py
-Launch Interactive Demo
-bash
-python src/interactive_demo.py
-🎮 How to Use the Demo
+### 🎮 How to Use the Demo
 Once the demo window opens:
 
 Action	Effect
@@ -94,7 +62,7 @@ The right panel shows the AI prediction.
 
 Watch as the AI learns to match the left panel!
 
-🔬 How It Works
+### 🔬 How It Works
 1. The Simulator (Physics Engine)
 The simulator uses a 2D finite difference method to model:
 
@@ -130,7 +98,7 @@ for step in range(500):
     loss.backward()
     optimizer.step()
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 Component	Technology
 Deep Learning	PyTorch 2.0+
 Physics Simulation	NumPy (finite difference)
@@ -138,29 +106,21 @@ Visualization	Matplotlib
 Testing	PyTest
 Configuration	YAML
 
-📊 Performance Benchmarks
+### 📊 Performance Benchmarks
 Metric	Value
 Training time	~2 minutes (500 steps on CPU)
 Inference speed	~50 FPS (real-time)
 Memory usage	<500MB RAM
 Model size	~2MB (weights only)
 Grid resolution	64x64 pixels
-🧪 Running Tests
-bash
-# Run all tests
-pytest tests/
 
-# Run with coverage report
-pytest tests/ --cov=src --cov-report=html
-🤝 Connect with Me
+### 🤝 Connect with Me
 GitHub: ThuvarakaYogeswaran
 
 LinkedIn: Thuvaraka Yogeswaran
 
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+### 🙏 Acknowledgments
 Inspired by MIT's "Tadpole" project (2025)
 
 Google's "DreamerV3" for world model concepts
@@ -169,7 +129,7 @@ PyTorch team for the excellent framework
 
 Open-source PDE solver references
 
-⭐ Show Your Support
+### ⭐ Show Your Support
 If you found this project useful:
 
 ⭐ Star the repository on GitHub
@@ -178,7 +138,7 @@ If you found this project useful:
 
 🐛 Report issues or suggest improvements
 
-📞 Contact
+### 📞 Contact
 For questions or collaborations:
 
 Open an issue on GitHub
