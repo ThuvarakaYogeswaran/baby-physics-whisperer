@@ -43,7 +43,7 @@ The AI starts **completely blank** (random weights). It watches smoke diffuse in
 
 ### Learning Curve
 
-![Learning Curve](https://github.com/ThuvarakaYogeswaran/baby-physics-whisperer/commit/807762f71799e7b1fb2cfd4fda3ae78b25320ecd)
+![Learning Curve][(https://github.com/ThuvarakaYogeswaran/baby-physics-whisperer/commit/807762f71799e7b1fb2cfd4fda3ae78b25320ecd)](https://github.com/ThuvarakaYogeswaran/baby-physics-whisperer/blob/807762f71799e7b1fb2cfd4fda3ae78b25320ecd/curve_final.png)
 
 *Error drops from 0.100 to 0.016 — 84% improvement!*
 
